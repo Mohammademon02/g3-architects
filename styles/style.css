@@ -5,7 +5,9 @@
     margin: 0 ;
     padding: 0;
 }
-
+p{
+    color: #727272;
+}
 
 
 /* navbar css start  */
@@ -38,7 +40,7 @@
 
 
 /* header css start  */
-.header-container,  .companyfeatures-container {
+.header-container,  .company-features-container {
     margin: 4% 10%;
 }
 .header-details{
@@ -79,7 +81,7 @@
 /* features section css start  */
 
 .features-container {
-    margin: 0 10%;
+    margin: 4% 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
@@ -141,10 +143,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.company-fratures-banner{
+.company-features-banner{
     position: relative;
 }
-.company-fratures-banner img {
+.company-features-banner img {
     width: 100%;
 }
 .experience-box {
@@ -159,3 +161,126 @@
     left: -80px;
 }
 /* company features section css end  */
+
+
+/* some facts section css start  */
+
+.facts-container{
+    margin: 5% 10%;
+}
+.facts-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.works-history{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work{
+    padding: 35px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+/* some facts section css end  */
+
+
+/* sponsors section css start  */
+
+.sponsors-container{
+    margin: 5% 10%;
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.sponsors-description{
+    margin-bottom: 30px;
+}
+.sponsors-company{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sponsors-logo img {
+    filter: grayscale(100%);
+}
+/* sponsors section css end  */
+
+
+/* footer section css start  */
+
+.footer-container{
+    margin: 10%;
+}
+.footer-title{
+    text-align: center;
+    padding: 25px 0;
+    background-color: #FFF4E7;
+}
+
+/* footer section css end  */
+
+
+
+
+
+/* =================================================================================
+   =================================================================================
+
+                       Media Query for Mobile Device
+
+  =================================================================================
+  ================================================================================= */
+
+
+@media screen and (max-width: 576px) {
+    .navbar-container{
+        padding: 20px 10px;
+    }
+    .navbar-title > h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .navbar-items > a {
+        margin-left: 15px;
+    }
+
+    .features-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-details{
+        padding: 0 0 20px 0;
+    }
+    .company-features-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+
+    .company-features-banner{
+        position: relative;
+    }
+    .experience-box {
+        position: static;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .works-history{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .sponsors-company{
+        flex-wrap: wrap;
+    }
+}
+
