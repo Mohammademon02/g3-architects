@@ -1,0 +1,161 @@
+
+/* common css styles  */
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+
+/* navbar css start  */
+.container{
+    background-color: rgba(255, 144, 14, 0.1)
+    ;
+    
+}
+
+.navbar-container{
+    padding: 25px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-title > h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar-items > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #424242;
+    margin-left: 25px;
+}
+
+/* navbar css end  */
+
+
+/* header css start  */
+.header-container,  .companyfeatures-container {
+    margin: 4% 10%;
+}
+.header-details{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    font-size: 55px;
+    font-weight: 700;
+    color: #131313;
+    margin: 20px 0;
+}
+.header-description{
+    color: #727272;
+    margin: 20px 0;
+}
+
+.explore-btn{
+    font-size: 15px;
+    border-style: none;
+    padding: 12px 18px;
+    color: #ffffff;
+    background-color: #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.header-banner{
+    padding-bottom: 30px;
+}
+.header-banner > img {
+    width: 100%;
+}
+
+/* header css end  */
+
+
+/* features section css start  */
+
+.features-container {
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+}
+
+.features-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.features-banner img {
+    width: 100%;
+}
+
+.features-details{
+    padding: 30% 0%;
+}
+
+.features-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#silver {
+    color: #727272;
+}
+#orange {
+    color: #FF900E;
+}
+.features-description{
+    color: #727272;
+    margin: 20px 0;
+}
+/* features section css end  */
+
+
+/* company features section css start  */
+
+.company-features-container{
+    margin: 4% 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 110px;
+}
+
+.company-features-title{
+    font-size: 25px;
+    font-weight: 600;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.company-features{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.company-fratures-banner{
+    position: relative;
+}
+.company-fratures-banner img {
+    width: 100%;
+}
+.experience-box {
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    position: absolute;
+    bottom: -40px;
+    left: -80px;
+}
+/* company features section css end  */
