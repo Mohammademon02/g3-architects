@@ -228,7 +228,43 @@ p{
 
 /* footer section css end  */
 
+/* our clients feedback section  css start  */
+.feedback-contianer{
+    margin: 4% 10%;
+}
 
+.feedback-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.single-feedback{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.feedback{
+    padding: 20px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+}
+.feedback-description{
+    margin: 25px 0;
+}
+
+.clients-name{
+    margin-bottom: 20px;
+}
+.fa-solid{
+    color: gold;
+}
+.fa-regular{
+    color: gold;
+}
+
+/* our clients feedback section  css start  */
 
 
 
@@ -281,6 +317,9 @@ p{
 
     .sponsors-company{
         flex-wrap: wrap;
+    }
+    .single-feedback{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
